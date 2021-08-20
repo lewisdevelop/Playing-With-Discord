@@ -8,7 +8,8 @@ client = discord.Client()
 @client.event
 async def on_ready():
         print("---------------------")
-        print("boot successful")
+        print("Network XRYT is on")
+        print("Commands are now active")
         print(client.user.name)
         print(client.user.id)
         print("---------------------")
